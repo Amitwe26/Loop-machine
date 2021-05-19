@@ -23,6 +23,7 @@ export function Home() {
 
     useEffect(() => {
         if (isOn) {
+            setToggleLoop(false)
             const newAudios = audios?.map(audio =>
                 audio.isWaiting && !audio.play
                     ? { ...audio, isWaiting: false, play: true }
@@ -51,7 +52,6 @@ export function Home() {
         if (isOn) {
             const noPlaying = audios.every(audio => audio.play === false)
             if (noPlaying) setIsOn(false)
-
         }
     }, [audios])
 
@@ -73,12 +73,22 @@ export function Home() {
                     ? { ...audio, isWaiting: false, play: false }
                     : audio
             );
-            newAudios = newAudios.map(audio =>
-                audio.isWaiting
-                    ? { ...audio, isWaiting: false, play: true }
-                    : audio
-            );
-            setAudios(newAudios)
+            const whoWait = audios.filter(audio => audio.isWaiting)
+            if (whoWait.length) {
+                newAudios = audios.map(audio =>
+                    (audio.isWaiting || audio.play) && info.id === audio.id
+                        ? { ...audio, isWaiting: false, play: false }
+                        : audio
+                );
+                setAudios(newAudios)
+            } else {
+                newAudios = newAudios.map(audio =>
+                    audio.isWaiting
+                        ? { ...audio, isWaiting: false, play: true }
+                        : audio
+                );
+                setAudios(newAudios)
+            }
 
         }
 
