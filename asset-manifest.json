@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Loop-machine/static/css/main.5f620faa.chunk.css",
+    "main.js": "/Loop-machine/static/js/main.c31a7930.chunk.js",
+    "main.js.map": "/Loop-machine/static/js/main.c31a7930.chunk.js.map",
+    "runtime-main.js": "/Loop-machine/static/js/runtime-main.0a183dbf.js",
+    "runtime-main.js.map": "/Loop-machine/static/js/runtime-main.0a183dbf.js.map",
+    "static/js/2.8528eff7.chunk.js": "/Loop-machine/static/js/2.8528eff7.chunk.js",
+    "static/js/2.8528eff7.chunk.js.map": "/Loop-machine/static/js/2.8528eff7.chunk.js.map",
+    "static/js/3.fb2915a6.chunk.js": "/Loop-machine/static/js/3.fb2915a6.chunk.js",
+    "static/js/3.fb2915a6.chunk.js.map": "/Loop-machine/static/js/3.fb2915a6.chunk.js.map",
+    "static/js/4.61f235c6.chunk.js": "/Loop-machine/static/js/4.61f235c6.chunk.js",
+    "static/js/4.61f235c6.chunk.js.map": "/Loop-machine/static/js/4.61f235c6.chunk.js.map",
+    "index.html": "/Loop-machine/index.html",
+    "static/css/main.5f620faa.chunk.css.map": "/Loop-machine/static/css/main.5f620faa.chunk.css.map",
+    "static/js/2.8528eff7.chunk.js.LICENSE.txt": "/Loop-machine/static/js/2.8528eff7.chunk.js.LICENSE.txt",
+    "static/js/3.fb2915a6.chunk.js.LICENSE.txt": "/Loop-machine/static/js/3.fb2915a6.chunk.js.LICENSE.txt",
+    "static/media/1.5eb417fc.mp3": "/Loop-machine/static/media/1.5eb417fc.mp3",
+    "static/media/2.37c82282.mp3": "/Loop-machine/static/media/2.37c82282.mp3",
+    "static/media/5.27bdc145.mp3": "/Loop-machine/static/media/5.27bdc145.mp3",
+    "static/media/GrooveB_120bpm_Tanggu.3e1411b4.mp3": "/Loop-machine/static/media/GrooveB_120bpm_Tanggu.3e1411b4.mp3",
+    "static/media/MazePolitics_120_Perc.2d08c654.mp3": "/Loop-machine/static/media/MazePolitics_120_Perc.2d08c654.mp3",
+    "static/media/PAS3GROOVE1.03B.f77c6da4.mp3": "/Loop-machine/static/media/PAS3GROOVE1.03B.f77c6da4.mp3",
+    "static/media/SilentStar_120_Em_OrganSynth.f2d668af.mp3": "/Loop-machine/static/media/SilentStar_120_Em_OrganSynth.f2d668af.mp3",
+    "static/media/bass.52c24c81.mp3": "/Loop-machine/static/media/bass.52c24c81.mp3",
+    "static/media/main.scss": "/Loop-machine/static/media/bg-image.29e60bf8.png",
+    "static/media/electricguitar.230fcab8.mp3": "/Loop-machine/static/media/electricguitar.230fcab8.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a183dbf.js",
+    "static/js/2.8528eff7.chunk.js",
+    "static/css/main.5f620faa.chunk.css",
+    "static/js/main.c31a7930.chunk.js"
+  ]
+}
