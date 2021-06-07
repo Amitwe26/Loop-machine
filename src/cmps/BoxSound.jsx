@@ -45,7 +45,7 @@ export function BoxSound({ info, isOn, updateAudio, src, endOfLoop }) {
     return (
         <div className={`square ${(info.play) ? 'squareOn' : ''}${info.isWaiting ? 'wait' : ''}`} onClick={(ev) => playSquare(ev)}>
             <h2>{info.type}</h2>
-            <input type="range" min="0" max="10" className="round" onChange={(ev) => handleChangeVolume(ev)} />
+            <input type="range" min="0" max="10" className="round" onClick={(ev) => handleChangeVolume(ev)} />
         </div>
     )
 }
